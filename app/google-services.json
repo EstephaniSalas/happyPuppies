@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "398998932932",
+    "project_id": "happy-puppies-4da9b",
+    "storage_bucket": "happy-puppies-4da9b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398998932932:android:f8834008e4f6b79ead2891",
+        "android_client_info": {
+          "package_name": "com.example.happypuppies"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU6HsCJOCJld0SY0W4oODv5rQ_h9CTDks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

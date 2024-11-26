@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="overlay_black">#19000000</color> <!-- Negro semitransparente -->
+    <color name="nav_selected">#FFFFFF</color>
+    <color name="nav_unselected">#B0B0B0</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <!-- Colores personalizados -->
+    <color name="success_green">#4CAF50</color> <!-- Verde para éxito -->
+    <color name="error_red">#F44336</color>     <!-- Rojo para errores -->
+</resources>

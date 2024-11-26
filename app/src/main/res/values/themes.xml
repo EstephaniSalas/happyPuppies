@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HappyPuppies" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.HappyPuppies" parent="Base.Theme.HappyPuppies" />
+</resources>

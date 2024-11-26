@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Fondo de pantalla -->
+    <ImageView
+        android:id="@+id/welcome_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bienvenida_background" />
+
+    <!-- Filtro oscuro sobre la imagen -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/overlay_black"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main" >
+
+
+        <!-- Mensaje de bienvenida -->
+
+
+        <!-- Botón para ir al login -->
+        <TextView
+            android:id="@+id/welcome_message"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/poppins"
+            android:text="¡La app para estar al tanto de tu compañero de vida.!"
+            android:textColor="#FDFCFC"
+            android:textSize="40sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/go_to_login_button"
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="291dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="25dp"
+            android:backgroundTint="#020101"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:text="→"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:cornerRadius="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcome_message"
+            app:layout_constraintVertical_bias="0.961" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

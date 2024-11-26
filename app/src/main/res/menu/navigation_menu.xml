@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_alimento"
+        android:icon="@drawable/baseline_restaurant_24"
+        android:title="Alimento" />
+
+    <item
+        android:id="@+id/nav_paseo"
+        android:icon="@drawable/baseline_pets_white_24"
+        android:title="Paseo" />
+
+    <item
+        android:id="@+id/nav_agenda"
+        android:icon="@drawable/baseline_calendar_white_24"
+        android:title="Agenda" />
+
+    <item
+        android:id="@+id/nav_localizar"
+        android:icon="@drawable/baseline_map_24"
+        android:title="Localizar" />
+</menu>
